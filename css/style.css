@@ -248,7 +248,12 @@ textarea {
 }
 
 .services {
-  background: var(--bg);
+  background:
+    linear-gradient(
+      rgba(247, 249, 252, 0.82),  /* 👈 cor de fundo + opacidade da camada */
+      rgba(247, 249, 252, 0.82)
+    ),
+    url(/assets/imgService.png) center / cover no-repeat;
 }
 
 .services-grid {
